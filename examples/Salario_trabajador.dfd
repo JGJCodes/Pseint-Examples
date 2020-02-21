@@ -1,0 +1,82 @@
+ Dfd (c)
+1
+1
+1
+0
+0
+6
+3
+5
+Horas
+1
+0
+9
+Pago_hora
+1
+0
+7
+Salario
+1
+0
+6
+2
+10
+Hora_extra
+1
+0
+10
+Pago_extra
+1
+0
+4
+1
+37
+"Ingresar numero de horas trabajadas"
+5
+1
+6
+Horas 
+4
+1
+24
+"Ingresar pago por hora"
+5
+1
+9
+Pago_hora
+6
+1
+7
+Salario
+17
+Horas * Pago_hora
+7
+0
+1
+8
+Horas>40
+4
+1
+24
+"El salario es", Salario
+13
+6
+3
+10
+Hora_extra
+10
+Horas - 40
+10
+Pago_extra
+31
+(Hora_extra * Pago_hora) * 0.10
+7
+Salario
+20
+Salario + Pago_extra
+4
+1
+24
+"El salario es", Salario
+13
+1

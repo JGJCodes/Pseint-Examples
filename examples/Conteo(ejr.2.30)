@@ -1,0 +1,20 @@
+Proceso Ejercicio_230Conteo
+	a=1
+	x=4
+	cn=1
+	Mientras x>=a Hacer
+		b=5
+		i=8
+		Mientras i>b Hacer
+			c=0
+			w=7
+			Mientras c<w Hacer
+				Imprimir cn," Hola ",a*b*w
+				w=w-2
+				cn=cn+1
+			FinMientras
+			b=b+1
+		FinMientras
+		x=x-1
+	FinMientras
+FinProceso

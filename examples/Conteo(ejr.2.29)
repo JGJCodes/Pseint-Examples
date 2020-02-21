@@ -1,0 +1,18 @@
+Proceso Ejercicio_229Conteo
+	a=0
+	x=4
+	cn=1
+	Mientras a<5 Hacer
+		a=a+3
+		b=13
+		i=2
+		Mientras b>=4 Hacer
+			x=3*x-i
+			Imprimir cn
+			b=b-2
+			i=i-4
+			cn=cn+1
+		FinMientras
+	FinMientras
+	Imprimir a," ",b," ",x," ",i
+FinProceso

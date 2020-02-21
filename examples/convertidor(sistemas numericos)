@@ -1,0 +1,19 @@
+Proceso convertidor (sistemas numericos) 
+	Escribir "cifra";
+	Leer num;
+	Escribir "base inicial";
+	Leer num;
+	Escribir "base final";
+	Leer num;
+	Escribir "exponente vuelta";
+	leer num;
+	Escribir "digito";
+	Leer num;
+	Repetir
+		"resultado"<-"resultado"+("digito"*expo("digito","exponente vuelta"));
+		"exponente vuelta"<-"exponente vuelta"-1;
+		regresar a 10;
+	Hasta Que "exponente vuelta"=-4;
+	//si es verdad// 
+	Escribir "cifra"="resultado" 'en decimal';
+FinProceso

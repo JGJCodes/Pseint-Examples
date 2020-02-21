@@ -1,0 +1,95 @@
+Proceso detalles
+	Montoapagar<-0;
+	cambio<-0;
+	Cantidadentregada<-0;
+	B1000<-0;
+	B500<-0;
+	B200<-0;
+	B100<-0;
+	B50<-0;
+	B20<-0;
+	M10<-0;
+	M5<-0;
+	M2<-0;
+	M1<-0;
+	C50<-0;
+	C20<-0;
+	C10<-0;
+	C5<-0;
+	Escribir 'Monto a pagar'
+	Leer Montoapagar;
+	Escribir 'Cantidad entregada';
+	Leer Canitdadentregada;
+	cambio<-Cantidadentregada-Montoapagar
+	si cambio>=1000 Entonces
+		B1000<-trunc(cambio/1000)
+		cambio<-cambio mod 1000
+		Escribir ' billetes de 1000:',B1000
+	FinSi
+	si cambio>=500 Entonces
+		B500<-trunc(cambio/500)
+		cambio<-cambio mod 500
+		Escribir ' billetes de 500:',B500
+	FinSi
+	si cambio>=200 Entonces
+		B200<-trunc(cambio/200)
+		cambio<-cambio mod 200
+		Escribir ' billetes de 200:',B200
+	FinSi
+	si cambio>=100 Entonces
+		B100<-trunc(cambio/100)
+		cambio<-cambio mod 100
+		Escribir ' billetes de 100:',B100
+	FinSi
+	si cambio>=50 Entonces
+		B50<-trunc(cambio/50)
+		cambio<-cambio mod 50
+		Escribir ' billetes de 50:',B50
+	FinSi
+	si cambio>=20 Entonces
+		B20<-trunc(cambio/20)
+		cambio<-cambio mod 20
+		Escribir ' billetes de 20:',B20
+	FinSi
+	si cambio>=10 Entonces
+		M10<-trunc(cambio/10)
+		cambio<-cambio mod 10
+		Escribir ' monedas de 10:',M10
+	FinSi
+	si cambio>=5 Entonces
+		M5<-trunc(cambio/5)
+		cambio<-cambio mod 5
+		Escribir ' monedas de 5:',M5
+	FinSi
+	si cambio>=2 Entonces
+		M2<-trunc(cambio/2)
+		cambio<-cambio mod 2
+		Escribir ' monedas de 2:',M2
+	FinSi
+	si cambio>=1 Entonces
+		M1<-trunc(cambio/1)
+		cambio<-cambio mod 1
+		Escribir ' monedas de 1:',M1
+	FinSi
+	si cambio>=50 Entonces
+		C50<-trunc(cambio/50)
+		cambio<-cambio mod 50
+		Escribir ' monedas de 50 centavos:',C50
+	FinSi
+	si cambio>=20 Entonces
+		C20<-trunc(cambio/20)
+		cambio<-cambio mod 20
+		Escribir ' monedas de 20 centavos:',C20
+	FinSi
+	si cambio>=10 Entonces
+		C10<-trunc(cambio/10)
+		cambio<-cambio mod 10
+		Escribir ' monedas de 10 centavos:',C10
+	FinSi
+	si cambio>=5 Entonces
+		C5<-trunc(cambio/5)
+		cambio<-cambio mod 5
+		Escribir ' monedas de 5 centavos:',C5
+	FinSi
+
+FinProceso

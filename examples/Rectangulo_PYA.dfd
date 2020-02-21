@@ -1,0 +1,61 @@
+ Dfd (c)
+1
+1
+1
+0
+0
+6
+2
+4
+Base
+1
+0
+6
+Altura
+1
+0
+6
+2
+9
+Perimetro
+1
+0
+4
+Area
+1
+0
+4
+1
+27
+"Ingresar valor de la base"
+5
+1
+4
+Base
+4
+1
+32
+"Ingresar el valor de la altura"
+5
+1
+6
+Altura
+6
+2
+9
+Perimetro
+23
+(2 *Base )+ (2 *Altura)
+4
+Area
+13
+Base * Altura
+4
+1
+44
+"El perimetro del rectangulo es ", Perimetro
+4
+1
+33
+"El area del rectangulo es", Area
+1

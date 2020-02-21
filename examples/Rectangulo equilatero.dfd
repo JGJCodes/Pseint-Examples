@@ -1,0 +1,61 @@
+ Dfd (c)
+1
+1
+1
+0
+0
+6
+2
+4
+Base
+1
+0
+6
+Altura
+1
+0
+6
+2
+9
+Perimetro
+1
+0
+4
+Area
+1
+0
+4
+1
+10
+'Dar base'
+5
+1
+4
+Base
+4
+1
+12
+'Dar altura'
+5
+1
+6
+Altura
+6
+2
+9
+Perimetro
+8
+3 * Base
+4
+Area
+19
+(Altura * Base) / 2
+4
+1
+31
+'El perimetro es:' ,  Perimetro
+4
+1
+22
+  'El area es:',  Area
+1

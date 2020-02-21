@@ -1,0 +1,11 @@
+Proceso SUMA
+    A<-0;
+    B<-0;
+    C<-0;
+    Escribir 'PROPORCIONA EL VALOR DE A';
+    Leer A;
+    Escribir 'PROPORCIONA EL VALOR DE B';
+    Leer B;
+    C<-A+B;
+    Escribir 'SUMA=',C;
+FinProceso
